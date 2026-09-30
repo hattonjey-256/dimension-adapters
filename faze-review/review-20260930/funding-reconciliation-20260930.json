@@ -1,0 +1,50 @@
+{
+  "atBurnCutoff": {
+    "end": 23417511,
+    "feeSources": [
+      "0x394d38f807ee0027a182216f5e67a15ae441fa2e"
+    ],
+    "routing": [
+      {
+        "block": 21224107,
+        "pool": "0xd9133187331e20885fd1b4ff2f18b892f94793ddaf808b1db6d4ef29ca58b943",
+        "tx": "0x5f2fdcf3f873a891fb87645817faaa84b1aff07ddea7f07c63509fe3dba104ba"
+      }
+    ],
+    "feeCredits": "68149.431161144132030123",
+    "successfulFeePayouts": "68149.431161144132030123",
+    "failedPayouts": "0.0",
+    "unwithdrawnFeeCredits": "0.0",
+    "executedBuybacks": "67921.217835992795470883",
+    "keeperRewards": "204.376783859557057521",
+    "netHolderFunding": "67945.054377284574972602",
+    "expectedBurnerBalanceFromFees": "23.836541291779501719"
+  },
+  "atFeeCutoff": {
+    "end": 23418923,
+    "feeSources": [
+      "0x394d38f807ee0027a182216f5e67a15ae441fa2e"
+    ],
+    "routing": [
+      {
+        "block": 21224107,
+        "pool": "0xd9133187331e20885fd1b4ff2f18b892f94793ddaf808b1db6d4ef29ca58b943",
+        "tx": "0x5f2fdcf3f873a891fb87645817faaa84b1aff07ddea7f07c63509fe3dba104ba"
+      }
+    ],
+    "feeCredits": "68166.612355475646668885",
+    "successfulFeePayouts": "68166.612355475646668885",
+    "failedPayouts": "0.0",
+    "unwithdrawnFeeCredits": "0.0",
+    "executedBuybacks": "67921.217835992795470883",
+    "keeperRewards": "204.376783859557057521",
+    "netHolderFunding": "67962.235571616089611364",
+    "expectedBurnerBalanceFromFees": "41.017735623294140481"
+  },
+  "observedBurnerBalance": "23.836541291779501719",
+  "unexplainedNetFunding": "0.0",
+  "note": "Native units at nominal USD 1. Full selected hook log history; successful payouts subtract failed-payment recredits. Balance reconciliation establishes net funding, not a complete internal-transfer trace audit.",
+  "observedBalanceAtFeeCutoff": "41.017735623294140481",
+  "bothCutoffBalancesReconcile": true,
+  "burnGapVerifiedEmpty": true
+}

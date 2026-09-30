@@ -1,0 +1,47 @@
+
+> dim@4.2.0 test
+> ts-node --transpile-only cli/testAdapter.ts fees faze 2026-09-29
+
+🦙 Running FAZE adapter 🦙
+---------------------------------------------------
+Start Date:	Mon, 28 Sep 2026 00:00:00 GMT
+End Date:	Tue, 29 Sep 2026 00:00:00 GMT
+---------------------------------------------------
+
+------ ERROR ------
+undefined
+{
+  llamaRPCError: true,
+  errors: [
+    {
+      host: 'https://rpc.blockdaemon.mainnet.arc.io',
+      error: 'pruned history unavailable'
+    },
+    {
+      host: 'https://rpc.mainnet.arc.io',
+      error: 'Request failed with status code 429'
+    },
+    {
+      host: 'https://rpc.drpc.mainnet.arc.io',
+      error: 'Request failed with status code 400'
+    },
+    {
+      host: 'https://rpc.quicknode.mainnet.arc.io',
+      error: 'Request failed with status code 429'
+    },
+    {
+      host: 'https://rpc.drpc.mainnet.arc.io',
+      error: 'Request failed with status code 400'
+    },
+    {
+      host: 'https://rpc.mainnet.arc.io',
+      error: 'Request failed with status code 429'
+    },
+    {
+      host: 'https://rpc.blockdaemon.mainnet.arc.io',
+      error: 'pruned history unavailable'
+    }
+  ],
+  method: 'getLogs',
+  chain: 'arc'
+}

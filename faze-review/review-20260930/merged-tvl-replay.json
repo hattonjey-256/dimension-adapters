@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "block": 23418923,
+  "rawCoreTvl": {
+    "0x0000000000000000000000000000000000000000": "75603554148240214922505"
+  },
+  "nfts": 9,
+  "bands": 21,
+  "scope": "Actual upstream TVL code with saved event/call fixtures. Curve reserves reconstructed from events; position calls use historical RPC fixtures. Not a live archive test."
+}
