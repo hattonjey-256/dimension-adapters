@@ -1,0 +1,20 @@
+✔ all cached ranges form a complete, decodable release archive (7.2748ms)
+✔ day: refactored engine reproduces fees, treasury component and volume exactly (7.0403ms)
+✔ week: refactored engine reproduces fees, treasury component and volume exactly (8.9333ms)
+✔ period: refactored engine reproduces fees, treasury component and volume exactly (11.2718ms)
+✔ volume partitions do not double-count a boundary block (8.7557ms)
+✔ TVL validates every locked NFT and compound position; raw integers retained (7.1051ms)
+✔ NFT custody changes fail rather than silently counting unlocked liquidity (4.0898ms)
+✔ duplicate and removed logs fail validation (0.4139ms)
+✔ TickMath endpoints and out-of-range liquidity positions (0.1152ms)
+✔ claim timing does not inflate fees: a negative accrual delta is preserved (0.241ms)
+✔ compounding allocated at accrual, not counted again on liquidity deployment (0.1107ms)
+✔ FAZE creator allocation stays outside third-party supply-side subtotal (0.082ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 925.673

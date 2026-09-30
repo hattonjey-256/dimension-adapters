@@ -1,0 +1,12 @@
+{
+  "rawAmountsMatch": true,
+  "dailyRaw": {
+    "arc:0x394D38F807eE0027A182216f5e67a15Ae441FA2E": "264787469186304498579449",
+    "arc:0x0000000000000000000000000000000000000000": "2993125666403881153382"
+  },
+  "dailyUsd": 3801.811812425274,
+  "hourlyUsd": 3932.686313816436,
+  "dailyFazeUsd": 809.0437751651536,
+  "hourlyFazeUsd": 939.9112566956846,
+  "explanation": "Identical raw amounts. Runner values daily at current prices within 24 hours, older hourly windows at historical prices; CLI also rounds each window."
+}
